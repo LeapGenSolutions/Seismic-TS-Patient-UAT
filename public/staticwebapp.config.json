@@ -1,18 +1,12 @@
 {
   "navigationFallback": {
-    "rewrite": "/index.html",
+    "rewrite": "index.html",
     "exclude": [
-      "/static/js/*",
-      "/static/css/*",
-      "/static/media/*",
-      "/assets/*",
-      "*.json"
+      "/static/media/*.{png,jpg,gif,svg}",
+      "/static/css/*"
     ]
   },
   "mimeTypes": {
-    ".html": "text/html",
-    ".js": "application/javascript",
-    ".css": "text/css",
     ".json": "text/json"
   }
 }
